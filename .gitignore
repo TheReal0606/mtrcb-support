@@ -1,0 +1,20 @@
+# Sensitive config — copy config.example.php → config.php and fill in values
+config/config.php
+
+# One-time scripts — delete after use
+setup.php
+fix_schema.php
+debug.php
+
+# Uploaded files
+uploads/*
+!uploads/.htaccess
+
+# Logs
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
